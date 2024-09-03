@@ -1,0 +1,31 @@
+.space-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(215, 155, 247);
+  height: 100vh;
+  gap: 10px;
+}
+
+.sweets-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px, solid gray;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.sweets-section {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
